@@ -192,7 +192,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <Beaker className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Project Mapping:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Project Mapping</h3>
           <p className="text-[#94a3b8] mt-2">
             Divide complex websites, SEO strategies, and design work into clear, actionable tasks for seamless project flow..
           </p>
