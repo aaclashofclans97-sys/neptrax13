@@ -68,7 +68,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-blue-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-            <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#38bdf8] to-[#60a5fa] bg-clip-text text-transparent drop-shadow-[0_0_6px_rgba(56,189,248,0.5)]">
+            <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#ffffff] via-[#bfdbfe] to-[#60a5fa] bg-clip-text text-transparent">
               Neptrax
             </span>
           </button>
