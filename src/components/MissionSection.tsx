@@ -185,20 +185,20 @@ export default function MissionSection() {
           </div>
         </ScrollReveal>
 
-        {/* Features List */}
-        <div className="py-20">
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ScrollReveal direction="up" delay={0}>
-              <div className="flex lg:flex-col gap-4">
-                <Beaker className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Project Breakdown:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">
-                    <b/>Split websites, SEO plans, or design deliverables into clear, actionable tasks for smooth execution.
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
+{/* Features List */}
+<div className="py-20">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <ScrollReveal direction="up" delay={0}>
+      <div className="flex lg:flex-col gap-4">
+        <Beaker className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Project Breakdown:</h3>
+          <p className="text-[#94a3b8] mt-2">
+            Split websites, SEO plans, or design deliverables into clear, actionable tasks for smooth execution.
+          </p>
+        </div>
+      </div>
+    </ScrollReveal>
 
             <ScrollReveal direction="up" delay={100}>
               <div className="flex lg:flex-col gap-4">
