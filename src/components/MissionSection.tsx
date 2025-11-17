@@ -177,10 +177,10 @@ export default function MissionSection() {
         <ScrollReveal direction="up" delay={0}>
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent mb-4">
-              Website management made simple
+              Streamline Your Website Management
             </h2>
             <p className="text-white text-lg max-w-3xl mx-auto">
-              Effortlessly manage content, collaborate with clarity, and navigate your website needs with workflows shaped for you and your team.
+              Take full command of your digital presence. Our platform makes it simple to manage content, enables crystal clear team collaboration, and provides intuitive workflows built to accelerate your business
             </p>
           </div>
         </ScrollReveal>
