@@ -104,16 +104,13 @@ export default function Home({ onNavigate }: HomeProps) {
             <ScrollReveal direction="up" delay={100} duration={0.8}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font text-[#f1f5f9] mb-4 sm:mb-6 leading-tight">
                 Launch your brand online <br className="hidden sm:block" />
-                <span className="text-gradient-animated">
+                <span className="bg-gradient-to-r from-[#2e4fdc] to-[#4da6ff] bg-clip-text text-transparent">
                   with a website built to
                 </span>
                 <br className="hidden sm:block" />
-                <TypeWriter
-                  text="convert & scale."
-                  speed={80}
-                  delayBetweenLoops={2500}
-                  className="text-gradient-animated inline-block"
-                />
+                <span className="bg-gradient-to-r from-[#2e4fdc] to-[#4da6ff] bg-clip-text text-transparent">
+                  convert & scale.
+                </span>
               </h1>
             </ScrollReveal>
 
