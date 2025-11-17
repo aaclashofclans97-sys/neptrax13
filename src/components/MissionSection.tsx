@@ -202,7 +202,7 @@ export default function MissionSection() {
 
     <ScrollReveal direction="up" delay={100}>
       <div className="flex lg:flex-col gap-4">
-        <Archive className="text-[#2563eb]" size={28} />
+        <Archive className="text-[#2563eb]" size={16} />
         <div>
           <h3 className="text-[#f1f5f9] font-semibold block">Smart Task Archiving:</h3>
           <p className="text-[#94a3b8] mt-2">
