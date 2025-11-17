@@ -212,15 +212,15 @@ export default function MissionSection() {
       </div>
     </ScrollReveal>
 
-            <ScrollReveal direction="up" delay={200}>
-              <div className="flex lg:flex-col gap-4">
-                <PackageCheck className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Client-Ready Deliverables:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">Every output is packaged professionally and ready for immediate handoff or launch.</p>
-                </div>
-              </div>
-            </ScrollReveal>
+    <ScrollReveal direction="up" delay={200}>
+      <div className="flex lg:flex-col gap-4">
+        <PackageCheck className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Client-Ready Deliverables:</h3>
+          <p className="text-[#94a3b8] mt-2">Every output is packaged professionally and ready for immediate handoff or launch.</p>
+        </div>
+      </div>
+    </ScrollReveal>
 
     <ScrollReveal direction="up" delay={300}>
       <div className="flex lg:flex-col gap-4">
