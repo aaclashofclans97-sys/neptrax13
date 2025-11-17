@@ -162,7 +162,7 @@ export default function MissionSection() {
 
                     <div className="relative z-10">
                       <div className="text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
-                        30+
+                        100+
                       </div>
                       <div className="text-[#cbd5e1] text-sm tracking-wide">Projects Delivered with Excellence</div>
                     </div>
