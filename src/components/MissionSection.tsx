@@ -200,17 +200,17 @@ export default function MissionSection() {
       </div>
     </ScrollReveal>
 
-            <ScrollReveal direction="up" delay={100}>
-              <div className="flex lg:flex-col gap-4">
-                <Archive className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Smart Task Archiving:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">
-                    Once a web page is built, a keyword plan is implemented, or a design is finalized, it's auto-archived—keeping your dashboard clean.
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
+    <ScrollReveal direction="up" delay={100}>
+      <div className="flex lg:flex-col gap-4">
+        <Archive className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Smart Task Archiving:</h3>
+          <p className="text-[#94a3b8] mt-2">
+            Once a web page is built, a keyword plan is implemented, or a design is finalized, it's auto-archived—keeping your dashboard clean.
+          </p>
+        </div>
+      </div>
+    </ScrollReveal>
 
             <ScrollReveal direction="up" delay={200}>
               <div className="flex lg:flex-col gap-4">
@@ -222,38 +222,37 @@ export default function MissionSection() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal direction="up" delay={300}>
-              <div className="flex lg:flex-col gap-4">
-                <Focus className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Focused Views:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">Customize your view to focus only on what matters.</p>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal direction="up" delay={400}>
-              <div className="flex lg:flex-col gap-4">
-                <MessagesSquare className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Collaborative Threads:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">Discuss changes directly inside each task—no more scattered feedback.</p>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal direction="up" delay={500}>
-              <div className="flex lg:flex-col gap-4">
-                <ClipboardList className="text-[#2563eb]" size={28} />
-                <div>
-                  <h3 className="text-[#f1f5f9] font-semibold inline">Issue Templates:</h3>
-                  <p className="text-[#94a3b8] inline ml-2">Prebuilt formats help you deliver faster without skipping details.</p>
-                </div>
-              </div>
-            </ScrollReveal>
-
-          </div>
+    <ScrollReveal direction="up" delay={300}>
+      <div className="flex lg:flex-col gap-4">
+        <Focus className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Focused Views:</h3>
+          <p className="text-[#94a3b8] mt-2">Customize your view to focus only on what matters.</p>
         </div>
+      </div>
+    </ScrollReveal>
+
+    <ScrollReveal direction="up" delay={400}>
+      <div className="flex lg:flex-col gap-4">
+        <MessagesSquare className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Collaborative Threads:</h3>
+          <p className="text-[#94a3b8] mt-2">Discuss changes directly inside each task—no more scattered feedback.</p>
+        </div>
+      </div>
+    </ScrollReveal>
+
+    <ScrollReveal direction="up" delay={500}>
+      <div className="flex lg:flex-col gap-4">
+        <ClipboardList className="text-[#2563eb]" size={28} />
+        <div>
+          <h3 className="text-[#f1f5f9] font-semibold block">Issue Templates:</h3>
+          <p className="text-[#94a3b8] mt-2">Prebuilt formats help you deliver faster without skipping details.</p>
+        </div>
+      </div>
+    </ScrollReveal>
+  </div>
+</div>
 
         {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
