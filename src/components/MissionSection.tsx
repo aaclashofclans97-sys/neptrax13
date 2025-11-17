@@ -118,7 +118,7 @@ export default function MissionSection() {
                 <p className="text-white text-lg italic mb-4">
                   "Neptrax delivered beyond expectations. The website feels modern, fast, and truly professional in every way. It changed how clients see our brand."
                 </p>
-                <p className="text-[#94a3b8] text-sm">— Ethan Fraser, Founder at TechNest</p>
+                <p className="text-[#94a3b8] text-sm">— Oliver Hayes, CEO at PixelReach Studios</p>
               </div>
 
               {/* REPLACED: Ultra-Premium Glass Gradient Version */}
