@@ -43,16 +43,16 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled 
-            ? 'bg-white/10 backdrop-blur-md border-b border-white/20 shadow-lg' 
+            ? 'backdrop-blur-md shadow-lg' 
             : 'bg-transparent'
         }`}
         style={{
           background: scrolled 
-            ? 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)' 
+            ? 'linear-gradient(135deg, rgba(13,17,23,0.85) 0%, rgba(13,17,23,0.75) 100%)' 
             : 'transparent',
           backdropFilter: scrolled ? 'blur(12px) saturate(180%)' : 'none',
           WebkitBackdropFilter: scrolled ? 'blur(12px) saturate(180%)' : 'none',
-          backgroundColor: scrolled ? 'rgba(13, 17, 23, 0.4)' : 'transparent',
+          borderBottom: scrolled ? '1px solid rgba(255,255,255,0.1)' : 'none',
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
@@ -106,7 +106,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300"
+            className="md:hidden p-2 rounded-lg bg-black/20 backdrop-blur-sm border border-white/10 hover:bg-black/30 transition-all duration-300"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -144,7 +144,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
             </span>
             <button
               onClick={() => setMobileMenuOpen(false)}
-              className="p-2 rounded-lg bg-white/10 border border-white/20 hover:bg-white/20 transition-colors duration-300"
+              className="p-2 rounded-lg bg-white/10 border border-white/10 hover:bg-white/20 transition-colors duration-300"
               aria-label="Close menu"
             >
               <X size={24} className="text-white" />
@@ -160,7 +160,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
                 className={`w-full text-left px-4 py-4 rounded-xl font-medium transition-all duration-300 backdrop-blur-sm border ${
                   activeSection === item.id
                     ? 'bg-gradient-to-r from-[#2563eb]/30 to-[#1e3a8a]/30 text-[#60a5fa] border-[#2563eb]/40 shadow-lg shadow-blue-500/20'
-                    : 'text-[#cbd5e1] border-white/10 hover:bg-white/10 hover:text-white hover:border-white/20'
+                    : 'text-[#cbd5e1] border-white/5 hover:bg-white/10 hover:text-white hover:border-white/10'
                 }`}
               >
                 {item.label}
