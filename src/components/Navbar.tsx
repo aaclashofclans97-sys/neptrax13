@@ -7,16 +7,7 @@ interface NavbarProps {
 }
 
 export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
-  const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -40,20 +31,14 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
 
   return (
     <>
-      <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? 'bg-[#0d1117]/90 backdrop-blur-lg shadow-lg' : 'bg-transparent'
-        }`}
-      >
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <button
             onClick={() => handleNavigate('home')}
             className="flex items-center gap-2 sm:gap-3 hover:opacity-90 transition-opacity md:ml-12"
           >
             <img src="/logo.png" alt="Neptrax" className="h-10 w-10 sm:h-12 sm:w-12" />
-            <span
-              className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#2e69e8] to-[#3b6fc4] bg-clip-text text-transparent"
-            >
+            <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#2e69e8] to-[#3b6fc4] bg-clip-text text-transparent">
               Neptrax
             </span>
           </button>
@@ -64,13 +49,16 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
               <button
                 key={item.id}
                 onClick={() => handleNavigate(item.id)}
-                className={`text-sm lg:text-base font-medium transition-all duration-300 hover-slide-border ${
+                className={`text-sm lg:text-base font-medium transition-all duration-300 relative ${
                   activeSection === item.id
                     ? 'text-[#2563eb]'
                     : 'text-[#94a3b8] hover:text-[#f1f5f9]'
                 }`}
               >
                 {item.label}
+                {activeSection === item.id && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#2563eb] to-[#1e3a8a] transform translate-y-2"></span>
+                )}
               </button>
             ))}
             <button
