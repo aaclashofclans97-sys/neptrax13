@@ -126,19 +126,19 @@ export default function Home({ onNavigate }: HomeProps) {
                   Book a Call
                 </motion.button>
                 
-                <motion.button
-                  onClick={() => onNavigate('portfolio')}
-                  className="group relative px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full bg-transparent border-2 border-purple-400/50 text-[#f1f5f9] font-medium overflow-hidden transition-all duration-500 hover:scale-105 hover:border-purple-400 hover:shadow-2xl hover:shadow-purple-500/25 backdrop-blur-sm flex items-center justify-center gap-2 text-sm sm:text-base"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <span className="relative z-10 flex items-center gap-2">
-                    <span>View Our Work</span>
-                    <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
-                  </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-600/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-                </motion.button>
+<motion.button
+  onClick={() => onNavigate('portfolio')}
+  className="group relative px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full bg-transparent border-2 border-blue-400/50 text-[#f1f5f9] font-medium overflow-hidden transition-all duration-500 hover:scale-105 hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-500/25 backdrop-blur-sm flex items-center justify-center gap-2 text-sm sm:text-base"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <span className="relative z-10 flex items-center gap-2">
+    <span>View Our Work</span>
+    <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
+  </span>
+  <div className="absolute inset-0 bg-gradient-to-r from-[#2e4fdc]/20 to-[#4da6ff]/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-[#2e4fdc] to-[#4da6ff] opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+</motion.button>
               </div>
             </ScrollReveal>
 
