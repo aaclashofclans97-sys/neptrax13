@@ -246,8 +246,8 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <ClipboardList className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Issue Templates:</h3>
-          <p className="text-[#94a3b8] mt-2">Prebuilt formats help you deliver faster without skipping details.</p>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Faster Delivery</h3>
+          <p className="text-[#94a3b8] mt-2">Move through project stages with speed and confidence using our structured templates that maintain high quality standards at every step.</p>
         </div>
       </div>
     </ScrollReveal>
