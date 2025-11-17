@@ -138,7 +138,7 @@ export default function MissionSection() {
                     <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/25 to-[#8b5cf6]/25 blur-4xl opacity-60"></div>
 
                     <div className="relative z-10">
-                      <div className="font-['GoogleSansFlex'] text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
+                      <div className="font-['GoogleSans'] text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
                         97%
                       </div>
                       <div className="text-[#cbd5e1] text-sm tracking-wide">Client Retention</div>
