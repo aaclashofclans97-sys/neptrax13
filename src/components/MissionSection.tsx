@@ -216,8 +216,8 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <PackageCheck className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Client-Ready Deliverables:</h3>
-          <p className="text-[#94a3b8] mt-2">Every output is packaged professionally and ready for immediate handoff or launch.</p>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Assets Ready for Deployment</h3>
+          <p className="text-[#94a3b8] mt-2">Your final deliverables are packaged for action, requiring no additional work and are primed for instant implementation upon receipt.</p>
         </div>
       </div>
     </ScrollReveal>
