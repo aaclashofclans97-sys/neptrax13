@@ -194,7 +194,7 @@ export default function MissionSection() {
                 <div>
                   <h3 className="text-[#f1f5f9] font-semibold inline">Project Breakdown:</h3>
                   <p className="text-[#94a3b8] inline ml-2">
-                    Split websites, SEO plans, or design deliverables into clear, actionable tasks for smooth execution.
+                    <b/>Split websites, SEO plans, or design deliverables into clear, actionable tasks for smooth execution.
                   </p>
                 </div>
               </div>
