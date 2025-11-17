@@ -111,7 +111,7 @@ export default function MissionSection() {
           <ScrollReveal direction="right" delay={150}>
             <div className="order-1 lg:order-2">
               <h2 className="text-4xl font-bold text-white mb-6 leading-tight">
-                We create digital experiences built for performance with thoughtful interfaces, effortless journeys and outcomes that clearly show their value.
+                We design experiences that feel natural from the first click. Smarter interfaces, smoother journeys, and clear results that prove their worth.
               </h2>
 
               <div className="bg-[#1e293b]/50 rounded-2xl p-8 mb-8 border border-white/10">
