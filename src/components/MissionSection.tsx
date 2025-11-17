@@ -204,7 +204,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <Archive className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-lg">Smart Task Archiving:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Smart Task Archiving:</h3>
           <p className="text-[#94a3b8] mt-2">
             Once a web page is built, a keyword plan is implemented, or a design is finalized, it's auto-archived—keeping your dashboard clean.
           </p>
