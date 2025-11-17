@@ -236,8 +236,8 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <MessagesSquare className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Collaborative Threads:</h3>
-          <p className="text-[#94a3b8] mt-2">Discuss changes directly inside each task—no more scattered feedback.</p>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Team Dialogue</h3>
+          <p className="text-[#94a3b8] mt-2">Embed all discussions and feedback within the specific task they relate to, ensuring context is never lost and collaboration stays focused.</p>
         </div>
       </div>
     </ScrollReveal>
