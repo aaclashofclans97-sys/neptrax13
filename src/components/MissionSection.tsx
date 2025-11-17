@@ -180,7 +180,7 @@ export default function MissionSection() {
               Streamline Your Website Management
             </h2>
             <p className="text-white text-lg max-w-3xl mx-auto">
-              Take full command of your digital presence. Our platform makes it simple to manage content, enables crystal clear team collaboration, and provides intuitive workflows built to accelerate your business
+              Take full control of your digital presence. Simplify content management, collaborate with clarity, and accelerate your business with our intuitive workflows.
             </p>
           </div>
         </ScrollReveal>
