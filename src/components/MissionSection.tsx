@@ -116,7 +116,7 @@ export default function MissionSection() {
 
               <div className="bg-[#1e293b]/50 rounded-2xl p-8 mb-8 border border-white/10">
                 <p className="text-white text-lg italic mb-4">
-                  "Working with Neptrax was a game-changer. The site looks sharp, runs smooth, and made our online presence feel truly professional."
+                  "Neptrax delivered beyond expectations. The website feels modern, fast, and truly professional in every way. It changed how clients see our brand."
                 </p>
                 <p className="text-[#94a3b8] text-sm">— Ethan Fraser, Founder at TechNest</p>
               </div>
