@@ -43,7 +43,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled 
-            ? 'bg-black/100 backdrop-blur-md border-b border-white/20 shadow-lg' 
+            ? 'bg-whit/200 backdrop-blur-md border-b border-white/0 shadow-lg' 
             : 'bg-transparent'
         }`}
         style={{
