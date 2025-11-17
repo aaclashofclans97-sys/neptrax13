@@ -226,8 +226,8 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <Focus className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Focused Views:</h3>
-          <p className="text-[#94a3b8] mt-2">Customize your view to focus only on what matters.</p>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Project Lens</h3>
+          <p className="text-[#94a3b8] mt-2">Focus in on what truly matters by customizing your view to highlight immediate priorities and filter out all irrelevant information.</p>
         </div>
       </div>
     </ScrollReveal>
