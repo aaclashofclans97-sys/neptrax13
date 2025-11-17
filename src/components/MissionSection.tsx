@@ -216,7 +216,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <PackageCheck className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block">Client-Ready Deliverables:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Client-Ready Deliverables:</h3>
           <p className="text-[#94a3b8] mt-2">Every output is packaged professionally and ready for immediate handoff or launch.</p>
         </div>
       </div>
@@ -226,7 +226,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <Focus className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block">Focused Views:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Focused Views:</h3>
           <p className="text-[#94a3b8] mt-2">Customize your view to focus only on what matters.</p>
         </div>
       </div>
@@ -236,7 +236,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <MessagesSquare className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block">Collaborative Threads:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Collaborative Threads:</h3>
           <p className="text-[#94a3b8] mt-2">Discuss changes directly inside each task—no more scattered feedback.</p>
         </div>
       </div>
@@ -246,7 +246,7 @@ export default function MissionSection() {
       <div className="flex lg:flex-col gap-4">
         <ClipboardList className="text-[#2563eb]" size={28} />
         <div>
-          <h3 className="text-[#f1f5f9] font-semibold block">Issue Templates:</h3>
+          <h3 className="text-[#f1f5f9] font-semibold block text-xl">Issue Templates:</h3>
           <p className="text-[#94a3b8] mt-2">Prebuilt formats help you deliver faster without skipping details.</p>
         </div>
       </div>
